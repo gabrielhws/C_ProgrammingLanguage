@@ -1,0 +1,8 @@
+
+#Compilação do código e criação do aplicativo
+gcc Nome_Arquivo.c -o Nome_Da_Aplicação
+
+#Executar o aplicatico
+
+./Nome_Da_Aplicação
+

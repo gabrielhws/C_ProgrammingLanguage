@@ -1,0 +1,30 @@
+Passo 1 (Equipe) 
+Considerar que  a  primeira  decisão  tomada  por  Leader  team  foi  estabelecer  uma  bateria  de testes  com  os  algoritmos  de  busca  e  ordenação  definidos  como  padrão  para  mostrar  o comportamento em situações distintas. Portanto, testarão os seguintes algoritmos.
+1.  Pesquisa Sequencial.
+2.  Sequencial Binária.
+Como  cada  integrante  da  equipe  ficou  responsável  por  realizar  um  teste,  foi estabelecido o uso arquivos de entrada disponíveis no moodle com o nome texts.rar  para que todos os testes sejam  executados  com  a  mesma  base  de  dados.  
+
+Inicialmente cada palavra contida no arquivo de entrada deve ser buscada no arquivo words também disponível no moodle. Esta tarefa se assemelha a correção ortográfica realizada por alguns editores de texto. 
+Para realizar deste teste execute o arquivo Pesquisa_ATPS.exe informando como parâmetro o nome do arquivo que você deseja comparar com o dicionário.
+Ex: Pesquisa_ATPS.exe alice.txt
+
+Realize a medição e anote o número de palavras encontradas no dicionário, o número de palavras não encontradas, o tempo carregamento e o tempo de busca para cada um dos algoritmos assim como o número de comparações realizadas por cada um deles.
+
+Construa uma tabela com estas informações.
+
+Passo 2 (Aluno) 
+Ler o texto e fazer as atividades apresentadas a seguir.
+Buscar informações em dicionário é uma tarefa corriqueira e bastante simples, já que as informações estão dispostas de forma ordenada.
+
+Uma tarefa mais elaborada e complexa é a busca de informações em um texto. Esta é a tarefa realizada pelos buscadores como Google e consiste em encontrar uma ou um conjunto de palavras em texto.
+
+           Para verificar este processo em funcionamento informe os seguintes parâmetros para o código disponibilizado:
+	Pesquisa_ATPS.exe alice.txt alice.txt
+
+Realize os testes comparado cada um dos algoritmos utilizando como entrada pelo menos seis textos diferentes comparados entre si e realize a medição:
+1.  do tempo gasto na execução de cada algoritmo para os dados;
+2.  do número de testes que cada algoritmo efetuou.
+3. do tempo de carga dos textos.
+4. do tempo médio gasto para encontrar cada palavra.
+
+Não se esqueça de que nos textos as palavras estão desordenadas e, portanto é preciso primeiro ordenar utilizando um dos algoritmos já apresentados para então realizar a Pesquisa binária.
